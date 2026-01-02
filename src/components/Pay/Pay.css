@@ -1,0 +1,14 @@
+#pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#pay h2 {
+    font-size: clamp(1rem,5vw,2.2rem);
+}
+
+#pay .form-control{
+    box-shadow: 0 0 0 1px #fff;
+}

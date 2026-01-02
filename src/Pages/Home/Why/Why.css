@@ -1,0 +1,23 @@
+#why {
+    padding: 50px 0 ;
+    /* margin: 50px 0; */
+}
+
+.bg-arrow-1 {
+    position: absolute;
+    top: -10%;
+    left: 10%;
+}
+
+.bg-arrow-2 {
+    position: absolute;
+    top: -5%;
+    right: 10%;
+    width: 15%;
+}
+
+.bg-why-bottom {
+    position: absolute;
+    bottom: -20%;
+    right: 12%;
+}

@@ -1,0 +1,98 @@
+.about {
+  padding: 70px 0 0 0;
+}
+
+.word-rounded {
+  border-radius: 0 0 20px 20px;
+  -webkit-border-radius: 0 0 20px 20px;
+  -moz-border-radius: 0 0 20px 20px;
+  -ms-border-radius: 0 0 20px 20px;
+  -o-border-radius: 0 0 20px 20px;
+}
+
+.icon-about-txt {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-new-skill {
+  position: relative;
+  height: 200px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.box-new-skill .star {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.icon-new-skills {
+  width: 60px;
+  height: 60px;
+}
+
+.box-student-say {
+  /* width: clamp(200px,50vw,350px); */
+  background-color: #f6f5fe;
+  /* border: 1px solid red; */
+  margin: 10px;
+}
+
+.box-student-say .img-say {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border: 5px solid #fff;
+  box-shadow: 1px 1px 7px 1px #00000096;
+  overflow: hidden;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: var(--main-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  box-shadow: 2px 2px 5px 2px #00000077;
+}
+
+.slick-prev {
+  left: -35px;
+}
+
+.slick-next {
+  right: -35px;
+}
+
+/* Style the dot indicator */
+.slick-dots li button {
+  font-size: 12px;
+  background-color: var(--bg-2);
+  border-radius: 50%;
+}
+
+/* Style the active dot */
+.slick-dots li.slick-active button {
+  background-color: var(
+    --main-color
+  ); /* Change the background color of active dot */
+}

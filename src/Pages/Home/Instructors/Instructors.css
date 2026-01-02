@@ -1,0 +1,46 @@
+.instructors {
+    border-radius: 100px 0 100px 0 !important;
+    -webkit-border-radius: 100px 0 100px 0 !important;
+    -moz-border-radius: 100px 0 100px 0 !important;
+    -ms-border-radius: 100px 0 100px 0 !important;
+    -o-border-radius: 100px 0 100px 0 !important;
+}
+
+.icon-link {
+    background-color: var(--main-color-1);
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.6s;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+    -ms-transition: background-color 0.6s;
+    -o-transition: background-color 0.6s;
+}
+
+.icon-link:hover {
+    background-color: var(--main-color);
+}
+
+.instructors h2 {
+    width: max-content;
+    position: relative;
+}
+
+.instructors h2::after {
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    height: 3px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background-color: var(--main-color);
+}

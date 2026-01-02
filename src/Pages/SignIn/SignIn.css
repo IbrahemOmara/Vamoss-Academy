@@ -1,0 +1,4 @@
+
+.sign-in .content-sign {
+    width: clamp(350px,50vw,600px);
+}

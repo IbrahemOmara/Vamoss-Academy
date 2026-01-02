@@ -1,0 +1,65 @@
+
+.nav-categories  .nav-item {
+    margin: 5px 10px;
+}
+
+.navs-taps {
+    width:75%;
+}
+
+.nav-categories .nav-link {
+    color: #fff;
+    box-shadow: 0 0 0 1px ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    width: 100%;
+}
+
+.nav-categories .nav-link:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-categories .nav-link.active {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 9px 20px;
+    font-weight: 600;
+}
+
+.nav-categories .package .card {
+    height: 500px;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+    box-shadow: 0 0 0 1px var(--main-color) ;
+    border: 0;
+    background-color:#28639748;
+    color: #fff;
+}
+
+.nav-categories .package .card svg {
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+
+@media (max-width: 991px) {
+    .navs-taps {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+}

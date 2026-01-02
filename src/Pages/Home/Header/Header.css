@@ -1,0 +1,135 @@
+#header {
+    margin-top: 150px;
+}
+
+.header .content {
+    border: 3px dashed RGBA(255,255,255,0.6);
+    border-radius: 0  0  50px 0;
+    -webkit-border-radius: 0  0  100px 0;
+    -moz-border-radius: 0  0  50px 0;
+    -ms-border-radius: 0  0  50px 0;
+    -o-border-radius: 0  0  50px 0;
+}
+
+.header .desc {
+    width: clamp(300px,100vw,59.5%);
+    margin: auto;
+    text-align: center;
+}
+
+.header .desc .desc-title {
+    background-color: var(--bg-main-color);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: clamp(300px,100vw,80%);
+    margin: auto;
+   
+}
+
+.header .desc h1 {
+    margin: 0;
+    font-size: clamp(1rem,10vw,3rem);
+    
+}
+
+.header .desc p, .header .desc span {
+    font-size: 1.03rem;
+    font-weight: 400;
+    margin-top: -25px;
+}
+
+
+.header .desc span {
+    font-size: 0.8rem;
+}
+
+.img-header {
+    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-main-color);
+    position: relative;
+}
+
+.img-header::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 70px;
+    background-image: url('../../../assets/imgs/Arrow.png');
+    background-position: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-100%,-100%);
+    -webkit-transform: translate(-100%,-100%);
+    -moz-transform: translate(-100%,-100%);
+    -ms-transform: translate(-100%,-100%);
+    -o-transform: translate(-100%,-100%);
+}
+
+.bg-light-cer {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+}
+
+.shaps .pin {
+    position:absolute;
+    top: 30%;
+    left: 10%;
+    width: 40px;
+    height: 70px;
+}
+
+.shaps .arrow1,
+.shaps .arrow2 {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+}
+
+.shaps .chart {
+    position: absolute;
+    bottom: -15%;
+    left: -5%;
+    width: 250px;
+    height: 400px;
+}
+
+.shaps .arrow1 {
+    top: 5%;
+    right: 25%;
+}
+
+.shaps .arrow2 {
+    top: 20%;
+    right: 10%;
+}
+
+@media (max-width: 992px) {
+
+    .header .desc {
+        width: 90%;
+    }
+
+    .header .desc h1 {
+        font-size: 2rem;
+    }
+
+    .header .desc p {
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+    
+}

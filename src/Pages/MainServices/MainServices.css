@@ -1,0 +1,12 @@
+
+.main-services .bg-ser {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translate(-55%,-100%);
+    -webkit-transform: translate(-55%,-100%);
+    -moz-transform: translate(-55%,-100%);
+    -ms-transform: translate(-55%,-100%);
+    -o-transform: translate(-55%,-100%);
+    width: 17%;
+}

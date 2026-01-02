@@ -1,0 +1,24 @@
+
+.courses {
+    padding: 50px 0;
+    border-radius: 0 100px 0 100px !important;
+    -webkit-border-radius: 0 100px 0 100px !important;
+    -moz-border-radius: 0 100px 0 100px !important;
+    -ms-border-radius: 0 100px 0 100px !important;
+    -o-border-radius: 0 100px 0 100px !important;
+}
+
+.icon-lesson {
+    width: 25px;
+    height: 25px;
+    background-color: var(--main-color);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+}

@@ -1,0 +1,105 @@
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo .img-logo {
+    width: 40px;
+    height: 40px;
+}
+
+nav .nav-item {
+    margin:0 10px;
+}
+
+nav .nav-link {
+    width: max-content;
+    color: var(--text-color) !important;
+    position: relative;
+    transition: color 0.6s;
+    -webkit-transition: color 0.6s;
+    -moz-transition: color 0.6s;
+    -ms-transition: color 0.6s;
+    -o-transition: color 0.6s;
+}
+
+nav .nav-link.active {
+    color: var(--main-color) !important;
+    position: relative;
+}
+
+nav .menu .nav-link::after,
+nav .menu .nav-link.active::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background-color: var(--main-color);
+    transition: width 0.6s;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6s;
+    -ms-transition: width 0.6s;
+    -o-transition: width 0.6s;
+}
+
+nav .menu .nav-link.active::after {
+    width: 50%;
+}
+
+nav .menu .nav-link:hover {
+    color: var(--main-color) !important;
+}
+
+nav .menu .nav-link:hover::after {
+    width: 50%;
+}
+
+.btn-login {
+    width: 100px;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+
+.btn-login:hover {
+    width: 140px;
+    border: 0;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    background-image: linear-gradient(to right,#ffffffe1,rgba(var(--main-color-RGB),0.5),rgba(var(--main-color-RGB),1));
+    box-shadow: 0 0 7px 0 #ffffff;
+}
+
+.navbar-toggler {
+    color: var(--main-color);
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.img-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    overflow: hidden;
+}
