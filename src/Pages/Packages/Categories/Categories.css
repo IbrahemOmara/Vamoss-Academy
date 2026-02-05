@@ -1,6 +1,6 @@
 
 .nav-categories  .nav-item {
-    margin: 5px 10px;
+    margin: 5px 0px;
 }
 
 .navs-taps {
@@ -8,7 +8,7 @@
 }
 
 .nav-categories .nav-link {
-    color: #fff;
+    color: var(--main-color-1);
     box-shadow: 0 0 0 1px ;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -24,7 +24,7 @@
 }
 
 .nav-categories .nav-link:hover {
-    background-color: #fff;
+    background-color: var(--main-color-1) !important;
     color: #000;
     font-weight: 500;
 }
@@ -37,6 +37,8 @@
     -o-border-radius: 15px;
     padding: 9px 20px;
     font-weight: 600;
+    background-color: var(--main-color-1) !important;
+    border: none;
 }
 
 .nav-categories .package .card {

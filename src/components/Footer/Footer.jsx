@@ -6,9 +6,9 @@ export default function Footer() {
   return (
     <footer className="footer text-center my-bg" id="footer">
       <div className="container">
-        <h2 className="text-white">Growth Academy</h2>
+        <h2 className="text-black">Vamos Academy</h2>
         <p className=" m-auto">
-          At Growth Academy, community is our cornerstone. Through expert-led
+          At Vamos Academy, community is our cornerstone. Through expert-led
           courses in trading and marketing, we empower individuals to thrive.
           Join us in unlocking your potential today.
         </p>

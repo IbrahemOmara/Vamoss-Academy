@@ -58,7 +58,7 @@ export default function SponsorId() {
       >
         <div className="row">
           <div className="col-12">
-            <label htmlFor="sponsorId" className="form-label text-white">
+            <label htmlFor="sponsorId" className="form-label text-black">
               Sponsor ID
             </label>
             <div className="sponser d-flex gap-4">
@@ -66,7 +66,7 @@ export default function SponsorId() {
                 onChange={sponsorId.handleChange}
                 name="sponsorId"
                 type="text"
-                className="form-control bg-dash gradient-border rounded-0 text-white"
+                className="form-control bg-dash gradient-border rounded-0 text-black"
                 id="sponsorId"
               />
               <button
@@ -74,7 +74,7 @@ export default function SponsorId() {
                 type="submit"
                 // onClick={() => search(sponsorId.values.sponsorId)}
                 // type="button"
-                className="btn bg-grdient text-white"
+                className="btn bg-grdient text-black"
               >
                 {btnLoading ? <BtnLoading /> : "Search"}
               </button>
@@ -87,7 +87,7 @@ export default function SponsorId() {
             </div>
           </div>
           <div className="col-12 mt-3"> 
-             <div className="p-2 d-flex align-items-center rounded-3 gradient-border text-white" style={{height:'40px'}}>{sponsorData.name}</div>
+             <div className="p-2 d-flex align-items-center rounded-3 gradient-border text-black" style={{height:'40px'}}>{sponsorData.name}</div>
           </div>
         </div>
       </form>

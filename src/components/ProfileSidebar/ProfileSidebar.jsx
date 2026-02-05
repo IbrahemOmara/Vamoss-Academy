@@ -29,9 +29,9 @@ export default function ProfileSidebar() {
             </div>
             <div className="data-user fs-v-small overflow-hidden">
                 <p className='m-0'>Your ID :<span className='fw-bold'> {data?.referId}</span></p>
-                <span className='text-white-50'>{data?.name}</span>
+                <span className='text-main-color'>{data?.name}</span>
             </div>
-            <button onClick={closeSidebar} className="text-white-50 btn border-0 fs-4 py-0">
+            <button onClick={closeSidebar} className="text-black btn border-0 fs-4 py-0">
                 <i className="fa-regular fa-circle-xmark"></i>
             </button>
         </div>
@@ -56,7 +56,7 @@ export default function ProfileSidebar() {
                     </Link>
                 </li>
                 <li className="nav-item border-top mt-3">
-                    <button onClick={logOut} className="btn text-white nav-link " to="/sign-in">
+                    <button onClick={logOut} className="btn text-black nav-link " to="/sign-in">
                         <i className="fa-solid fa-arrow-right-from-bracket"></i>
                         <span className='d-md-block'>Log out</span>
                     </button>

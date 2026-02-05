@@ -101,7 +101,7 @@ export default function Cart() {
                       {/* <button
                         onClick={pay}
                         type="button"
-                        className="btn text-white my-btn"
+                        className="btn text-black my-btn"
                       >
                         Checkout
                       </button> */}

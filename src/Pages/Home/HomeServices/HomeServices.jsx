@@ -41,7 +41,7 @@ export default function HomeServices() {
   return (
     <section className="services mt-5" id="services">
       <div className="container position-relative">
-        <h2 className="text-white text-center">Our Services</h2>
+        <h2 className="text-black text-center">Our Services</h2>
         <div className="content my-bg">
           <div className="row gy-3 gy-lg-0 mt-5">
             {services.map((ser) => {

@@ -11,7 +11,7 @@ export default function Why() {
   return (
     <section className="why" id="why">
       <div className="container  position-relative">
-        <h2 className="text-white text-center">Why Growth Academy</h2>
+        <h2 className="text-black text-center">Why Vamos Academy</h2>
         <div className="content">
           <div className="row mt-4 gy-5 gy-md-0 text-center">
             <div className="col-md-4">
@@ -19,7 +19,7 @@ export default function Why() {
                 <div className="img-why">
                   <img src={imgOnline} alt="online course" />
                 </div>
-                <h5 className="text-white  m-0">Online Courses</h5>
+                <h5 className="text-black  m-0">Online Courses</h5>
               </div>
             </div>
             <div className="col-md-4">
@@ -27,7 +27,7 @@ export default function Why() {
                 <div className="img-why">
                   <img src={imgMarket} alt="marketing course" />
                 </div>
-                <h5 className="text-white  m-0">Marketing Courses</h5>
+                <h5 className="text-black  m-0">Marketing Courses</h5>
               </div>
             </div>
             <div className="col-md-4">
@@ -35,7 +35,7 @@ export default function Why() {
                 <div className="img-why">
                   <img src={imgTrade} alt="trading course" />
                 </div>
-                <h5 className="text-white  m-0">Trading Courses</h5>
+                <h5 className="text-black  m-0">Trading Courses</h5>
               </div>
             </div>
           </div>

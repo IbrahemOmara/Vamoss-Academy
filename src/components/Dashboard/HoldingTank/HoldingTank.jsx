@@ -75,7 +75,7 @@ export default function HoldingTank() {
                             {item.status === "Active" && !item.hasParent ? (
                               <button
                                 type="button"
-                                className="my-bg-success fw-bold border-0 rounded py-2 w-100 text-white d-flex gap-2 align-items-center "
+                                className="my-bg-success fw-bold border-0 rounded py-2 w-100 text-black d-flex gap-2 align-items-center "
                               >
                                 <i className={`fa-solid fa-chevron-right`}></i>
                                 <p className="m-0">

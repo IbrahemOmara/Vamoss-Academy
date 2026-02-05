@@ -38,7 +38,7 @@ export default function Navbar() {
                   alt="logo"
                 />
               </div>
-              <span className="text-white"> Growth Academy</span>
+              <span className="text-black"> Vamos Academy</span>
             </div>
           </Link>
 
@@ -67,7 +67,7 @@ export default function Navbar() {
                     alt="logo"
                   />
                 </div>
-                <span className="text-white"> Growth Academy</span>
+                <span className="text-black"> Vamos Academy</span>
               </div>
               <button
                 type="button"
@@ -128,7 +128,7 @@ export default function Navbar() {
               </Link>
               <button
                 onClick={handleToggleSidebarProfile}
-                className="btn text-white link-dashboard border-0 "
+                className="btn text-black link-dashboard border-0 "
               >
                 <div className="img-profile">
                   <img

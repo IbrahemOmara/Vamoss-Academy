@@ -1,16 +1,16 @@
 /**************************************************************/
 
 :root {
-  --bg-main-color: #0d0d55;
+  --bg-main-color: #ffffff;
   --bg-main-color-RGB: 13, 13, 85;
-  --bg-2: #28639749;
+  --bg-2: #df505771;
   --gold-color: #f7c900;
 
   /* --bg-2-RGB: 40, 99, 151; */
-  --main-color: #0284e2;
-  --main-color-1: #01c3fd;
+  --main-color: #f4bd2f;
+  --main-color-1: #c3252c;
   --main-color-RGB: 2, 132, 226;
-  --text-color: #ffffff;
+  --text-color: #000000;
 }
 
 html,
@@ -31,7 +31,7 @@ body {
 }
 
 p {
-  color: #ffffffc7;
+  color: #6a6969c7;
 }
 
 img {
@@ -44,8 +44,12 @@ a {
   text-decoration: none;
 }
 
+.text-black {
+  color: #000 !important;
+}
+
 .text-main-color {
-  color: var(--main-color) !important;
+  color: var(--main-color-1) !important;
 }
 
 .gold-color {
@@ -79,7 +83,7 @@ a {
 
 .my-bg {
   color: var(--text-color);
-  background-color: #ffffff33;
+  background-color: #55555533;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -88,7 +92,14 @@ a {
 }
 
 .border-bottom-dashed {
-  border-bottom: 1px dashed RGBA(255, 255, 255, 0.6);
+  border-bottom: 1px dashed var(--main-color-1);
+}
+.border-bottom{
+  border-bottom: 1px solid var(--main-color-1) !important;
+}
+
+.border-top{
+  border-top: 1px solid var(--main-color-1) !important;
 }
 
 .btn,
@@ -147,13 +158,13 @@ a {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   border: 3px solid transparent;
-  border-image: linear-gradient(to left top, #0285e2, #0285e202);
+  border-image: linear-gradient(to left top, var(--main-color-1), #0285e202);
   border-image-slice: 1;
 }
 
 .gradient-border {
   border: 3px solid transparent;
-  border-image: linear-gradient(to right bottom, #0285e2, #0285e202);
+  border-image: linear-gradient(to right bottom, var(--main-color-1), #0285e202);
   border-image-slice: 3;
   border-radius: 15px;
   -webkit-border-radius: 15px;

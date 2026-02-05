@@ -24,6 +24,7 @@ export default function MyLineChart({chartsParams,price,xLabels,yLabels}) {
       xAxis={[{ scaleType: 'point', data: xLabels }]}
       yAxis={[{ scaleType: 'linear', data: yLabels }]}
       height={250}
+      
       />
     
     </Stack>

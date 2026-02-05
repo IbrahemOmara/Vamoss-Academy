@@ -72,13 +72,13 @@ export default function CourseeDetails() {
             <div className="col-lg-6">
               <h4>{course?.shortDesc}</h4>
               <p>
-                Number of Lessons: <span className="text-white">{course?.numberLecture} Lesson</span>
+                Number of Lessons: <span className="text-black">{course?.numberLecture} Lesson</span>
               </p>
               <p>
-                Total Hourse: <span className="text-white">{course?.totalHouers}</span>
+                Total Hourse: <span className="text-black">{course?.totalHouers}</span>
               </p>
               <p>
-                Teacher: <span className="text-white">{course?.instructors[0].instractorName}</span>
+                Teacher: <span className="text-black">{course?.instructors[0].instractorName}</span>
               </p>
               <p>
                 Review:{" "}

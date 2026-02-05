@@ -88,7 +88,7 @@ export default function SignIn() {
             <div className="desc-sign-up">
               <h2>Welcome Back</h2>
               <p className="text-muted">
-                At Growth Academey, Community is our cornerstone. Through
+                At Vamos Academy, Community is our cornerstone. Through
                 expert-led courses in trading and marketing, we empower
                 individuals to thrive
               </p>

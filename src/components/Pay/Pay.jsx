@@ -106,7 +106,7 @@ export default function Pay() {
         <div className="container">
           <div className="row ">
             <div className="col-md-6 col-lg-5 m-auto ">
-              <div className="box-pay text-white">
+              <div className="box-pay text-black">
                 <div className="head-pay d-flex align-items-center gap-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@ export default function Pay() {
                           <input
                             onChange={token.handleChange}
                             type="text"
-                            className="form-control bg-transparent text-white border border-white py-2 border-0"
+                            className="form-control bg-transparent text-black border border-white py-2 border-0"
                             name="tokens"
                             id="tokens"
                             placeholder=""
@@ -159,7 +159,7 @@ export default function Pay() {
                           <button
                             type="button"
                             onClick={() => checkToken(token.values.tokens)}
-                            className="btn text-white  position-absolute end-0 top-0"
+                            className="btn text-black  position-absolute end-0 top-0"
                           >
                             <i className="fa-solid fa-search"></i>
                           </button>
@@ -173,7 +173,7 @@ export default function Pay() {
                         <button
                           disabled={status||btnLoading}
                           type="submit"
-                          className={`w-100 btn fw-bolder fs-5 my-btn text-white`}
+                          className={`w-100 btn fw-bolder fs-5 my-btn text-black`}
                         >
                           {btnLoading? <BtnLoading/>:'Pay'}
                         </button>

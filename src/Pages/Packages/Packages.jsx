@@ -11,7 +11,7 @@ export default function Packages() {
           <div className="col-12 position-relative">
             <div className="">
               <div className="search position-absolute w-50">
-                <h1 className='fw-bolder text-center'>Our Packages</h1>
+                <h1 className='fw-bolder text-center text-white'>Our Packages</h1>
                 <form >
                   <div className="row mt-4 position-relative ">
                     <input className='form-control' type="text" name="search" id="search" placeholder="Search" />

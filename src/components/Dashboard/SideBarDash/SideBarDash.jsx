@@ -34,7 +34,7 @@ export default function SideBarDash({
   const dataUser = JSON.parse(localStorage.dataAuth);
 
   const newTheme = createTheme({
-    palette: { mode: "dark", background: "#28639727" },
+    palette: { mode: "light", background: "#22405e78" },
   });
 
   const handleItemClick = (text) => {
@@ -92,10 +92,10 @@ export default function SideBarDash({
                     alt="logo"
                   />
                 </div>
-                <span className="text-white fs-5 "> Growth Academy</span>
+                <span className="text-black fs-5 "> Vamos Academy</span>
               </div>
             </Link>
-            <IconButton className="text-white" onClick={handleDrawerClose}>
+            <IconButton className="text-black" onClick={handleDrawerClose}>
               {theme.direction === "rtl" ? (
                 <ChevronRightIcon />
               ) : (
@@ -125,7 +125,7 @@ export default function SideBarDash({
                     justifyContent: open ? "initial" : "center",
                     px: 2.5,
                   }}
-                  className={isActive(text)}
+                  className={isActive(text) + " text-black"}
                   onClick={() => handleItemClick(text)}
                 >
                   <ListItemIcon
@@ -133,7 +133,7 @@ export default function SideBarDash({
                       minWidth: 0,
                       mr: open ? 3 : "auto",
                       justifyContent: "center",
-                      color: "#fff",
+                      color: "var(--main-color-1)",
                     }}
                   >
                     {index === 0 ? <HomeIcon /> : ""}

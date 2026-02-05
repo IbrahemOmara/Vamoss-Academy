@@ -118,7 +118,7 @@ export default function PopUpFormAddP({ text, childId }) {
     <>
       <Button
         variant="outlined"
-        className="p-0 border-0 text-white"
+        className="p-0 border-0 text-black"
         onClick={handleClickOpen}
       >
         {text}

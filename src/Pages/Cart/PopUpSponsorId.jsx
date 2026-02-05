@@ -22,13 +22,13 @@ export default function PopUpSponsorId({ text, pay }) {
     <>
       <Button
         variant="outlined"
-        className="p-0 border-0 text-white my-btn"
+        className="p-0 border-0 text-black my-btn"
         onClick={handleClickOpen}
       >
         {text}
       </Button>
       <Dialog open={open} onClose={handleClose} className="">
-        <DialogTitle className="bg-main-color text-white">
+        <DialogTitle className="bg-main-color text-black">
           Do you have Sponsor Id ?
         </DialogTitle>
         <DialogContent

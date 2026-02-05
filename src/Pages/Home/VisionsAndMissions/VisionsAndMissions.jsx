@@ -10,9 +10,9 @@ export default function VisionsAndMissions() {
   return (
     <section className="visions-and-missions" id="vision">
       <div className="container position-relative">
-        <h2 className="text-white text-center">Visions and Missions</h2>
+        <h2 className="text-black text-center">Visions and Missions</h2>
         <div className="content1 p-4 my-bg mt-5">
-          <h3 className="text-white text-uppercase">Our visions</h3>
+          <h3 className="text-black text-uppercase">Our visions</h3>
           <div className="row py-4">
             <div className="col-md-4">
               <div className="box-vision text-center">
@@ -55,7 +55,7 @@ export default function VisionsAndMissions() {
           </div>
         </div>
         <div className="content2 p-4 my-bg mt-5">
-          <h3 className="text-white text-uppercase">Our Missions</h3>
+          <h3 className="text-black text-uppercase">Our Missions</h3>
           <div className="row py-4">
             <div className="col-md-4">
               <div className="box-vision text-center">

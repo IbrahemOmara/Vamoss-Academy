@@ -15,7 +15,7 @@ export default function NabarDashboard({ open, handleDrawerOpen, AppBar }) {
       <AppBar position="fixed" open={open}>
         <Toolbar className="bg-main-color">
           <IconButton
-            color="inherit"
+            
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"

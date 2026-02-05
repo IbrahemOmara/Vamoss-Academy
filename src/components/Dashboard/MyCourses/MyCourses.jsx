@@ -47,7 +47,7 @@ export default function MyCourses() {
   
 
   return error ? (
-    <h1 className="text-white text-center my-fw-bold mt-5">
+    <h1 className="text-black text-center my-fw-bold mt-5">
       {error.response.data}
     </h1>
   ) : (
@@ -64,10 +64,10 @@ export default function MyCourses() {
                 >
                   <div className="course-desc rounded">
                     <div className="head-course d-flex justify-content-between position-absolute w-100 p-2">
-                      <span className="num-hours text-white bg-grdient p-1 rounded">
+                      <span className="num-hours text-black bg-grdient p-1 rounded">
                         {course.totalHouers} h
                       </span>
-                      <span className="price text-white bg-grdient p-1 rounded">
+                      <span className="price text-black bg-grdient p-1 rounded">
                         ${course.price}
                       </span>
                     </div>

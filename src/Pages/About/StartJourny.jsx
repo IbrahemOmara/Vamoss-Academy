@@ -19,7 +19,7 @@ export default function StartJourny() {
             How We Start Journey
           </h6>
           <h2>Start Your Learing Journey Today! </h2>
-          <p className="w-50 m-auto text-white-50">
+          <p className="w-50 m-auto text-black-50">
             Groove’s intuitive shared inbox makesteam members together organize,
             prioritize and.In this episode.
           </p>
