@@ -45,10 +45,13 @@ export default function About() {
                     Level Challenge.
                   </h3>
                   <p className="text-black-50">
-                    when an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book. It has survived not only
-                    five centuries, but also the leap into electronic
-                    typesetting.
+                    Vamos started out of a genuine passion for language teaching, 
+                    not just as a project idea.
+                    We began with just the two of us, each teaching the language she loved and had studied. 
+                    With time and the support we received from our students, we grew step by step. 
+                    Today, Vamos is an online academy offering various language courses. 
+                    We have a team of qualified instructors, and we work every day to provide a simple, 
+                    understandable, and truly beneficial learning experience.
                   </p>
                   <div className="mt-5">
                     <div className="d-flex gap-2 mt-3 align-items-center">
@@ -78,6 +81,15 @@ export default function About() {
                       </div>
                     </div>
                   </div>
+                  <h2 className=" mt-5 fw-bold">Our story</h2>
+                  <p className="text-black-50">
+                    The beginning was very simple. 
+                    One of us started by teaching Spanish, and then the other started teaching French.
+                    We were working alone, delivering the courses ourselves and interacting with each student individually.
+                    Over time, demand increased, results became apparent, and it became clear that there was a real need for a different teaching method.
+                    Now, thank God, we have more than one Instructor in more than one language, especially Spanish and French, 
+                    and Vamos is growing and expanding day by day because of you and with you.
+                  </p>
                 </div>
               </div>
             </div>

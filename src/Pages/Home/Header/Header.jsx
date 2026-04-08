@@ -25,10 +25,12 @@ export default function Header() {
       <div className="container">
         <div className="content position-relative">
           <DescHeader />
+
           <div className={`text-center ${show}`}>
+            
             <Link
               type="button"
-              className="btn my-btn position-relative z-3"
+              className="btn my-btn position-relative z-3 mt-4"
               to="/auth/sign-up"
             >
               Get Started

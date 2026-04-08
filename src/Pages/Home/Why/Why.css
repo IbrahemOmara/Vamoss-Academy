@@ -21,3 +21,8 @@
     bottom: -20%;
     right: 12%;
 }
+
+.img-why img{
+    height: 150px;
+    width: 150px;
+}

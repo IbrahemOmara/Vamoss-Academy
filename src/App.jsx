@@ -20,6 +20,7 @@ import SuccessPay from "./components/SuccessPay/SuccessPay";
 import HoldingTank from "./components/Dashboard/HoldingTank/HoldingTank";
 import MainServices from "./Pages/MainServices/MainServices";
 import About from "./Pages/About/About";
+import FAQ from "./Pages/FAQ/FAQ";
 import CourseeDetails from "./Pages/Home/Courses/CourseeDetails";
 import MyWallet from "./components/Dashboard/MyWallet/MyWallet";
 import Ewallet from "./components/Dashboard/Ewallet.jsx/Ewallet";
@@ -60,6 +61,10 @@ function App() {
         {
           path: "about-us",
           element: <About />,
+        },
+        {
+          path: "faq",
+          element: <FAQ />,
         },
         {
           path: "my-cart",

@@ -9,7 +9,7 @@
   /* --bg-2-RGB: 40, 99, 151; */
   --main-color: #f4bd2f;
   --main-color-1: #c3252c;
-  --main-color-RGB: 2, 132, 226;
+  --main-color-RGB: 195, 37, 44;
   --text-color: #000000;
 }
 
@@ -114,12 +114,22 @@ a {
   background-color: var(--main-color);
   background-image: linear-gradient(
     to right,
-    #ffffff9a,
-    rgba(var(--main-color-RGB), 0.8),
+    #ffffff5c,
+    rgba(var(--main-color-RGB), 0.6),
     rgba(var(--main-color-RGB), 1)
   );
   box-shadow: 0 0 7px 0 #ffffff;
   font-weight: bold;
+}
+.sec-btn{
+  width: 50%;
+  border:dashed 1px var(--main-color-1);
+  border-radius: 30px;
+  color: var(--main-color-1) !important;
+  
+  box-shadow: 0 0 10px 5px #ff8383;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .cursor-pointer {

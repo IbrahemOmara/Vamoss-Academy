@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomeServices.css";
-import tradIcon from "../../../assets/imgs/services/trade-icon.png";
-import marketIcon from "../../../assets/imgs/services/market-icon.png";
-import proIcon from "../../../assets/imgs/services/pro-icon.png";
-import interactiveIcon from "../../../assets/imgs/services/interactive-icon.png";
+import engIcon from "../../../assets/imgs/services/united-kingdom.png";
+import gerIcon from "../../../assets/imgs/services/german.png";
+import spnIcon from "../../../assets/imgs/services/spanish.png";
+import freIcon from "../../../assets/imgs/services/french.png";
 import arrowLeft from "../../../assets/imgs/services/bigArrowLeft.png";
 import arrowRight from "../../../assets/imgs/services/bigArrowRight.png";
 import Service from "../../MainServices/Service";
@@ -12,28 +12,28 @@ export default function HomeServices() {
 
   const services = [
     {
-      icon: tradIcon,
+      icon: engIcon,
       iconType:'img',
-      title: "Trading Courses",
-      text: "fering a range of courses covering various aspects of trading, including technical analysis, fundamental analysis, risk management.",
+      title: "English",
+      text: "Improve your English for work, call centers, or studies without the fear of speaking.",
     },
     {
-      icon: marketIcon,
+      icon: gerIcon,
       iconType:'img',
-      title: "Marketing Courses",
-      text: "Providing courses on digital marketing, content marketing, social media marketing, SEO, email marketing, and other relevant strategies ",
+      title: "German",
+      text: "A precise and crucial language for job and study opportunities in Europe. ",
     },
     {
-      icon: proIcon,
+      icon: spnIcon,
       iconType:'img',
-      title: "Professional Courses",
-      text: " Offering certification programs in trading and marketing to validate skills and expertise, enhancing career prospects and credibility in the industry.",
+      title: "Spanish",
+      text: "One of the most in-demand languages ​​in the current job market, with opportunities increasing daily.",
     },
     {
-      icon: interactiveIcon,
+      icon: freIcon,
       iconType:'img',
-      title: "Interactive Learning",
-      text: "Utilizing interactive learning tools such as quizzes,assignments, case studies, and live webinars to enhance engagement and facilitate practical application of concepts.",
+      title: "French",
+      text: "A powerful language for work, study, and travel, with a solid academic foundation.",
     },
   ];
 
@@ -41,7 +41,8 @@ export default function HomeServices() {
   return (
     <section className="services mt-5" id="services">
       <div className="container position-relative">
-        <h2 className="text-black text-center">Our Services</h2>
+        <h2 className="text-black text-center">You Can Learn With Us</h2>
+        <p className="text-center">All languages ​​offer the same quality, the same curriculum, and the same level of attention.</p>
         <div className="content my-bg">
           <div className="row gy-3 gy-lg-0 mt-5">
             {services.map((ser) => {

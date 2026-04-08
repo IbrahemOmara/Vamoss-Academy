@@ -91,6 +91,11 @@ export default function Navbar() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
+                  <NavLink className="nav-link" to="/faq">
+                    FAQ
+                  </NavLink>
+                </li>
+                <li className="nav-item">
                   <NavLink className="nav-link" to="/about-us">
                     About Us
                   </NavLink>

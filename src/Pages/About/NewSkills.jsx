@@ -10,28 +10,28 @@ export default function NewSkills() {
   const skills = [
     {
       icon: <GraduateIcon style={{ fontSize: sizeIcon }} />,
-      text: " Providing comprehensive training on how to effectively analyze financial markets, including both technical and fundamental analysis",
+      text: " Language should be a valuable tool and a real opportunity for anyone who learns it, not just a course.",
       bgColor: "#F1FDFF",
       bgIcon: "#1BCBE3",
       shadowColor: "#C9E4E9",
-      title: "Market Analysis",
+      title: "Our Vision",
     },
     {
       icon: <EffectiveICon style={{ fontSize: sizeIcon }} />,
-      text: "Teaching how to effectively manage risks while trading, including position sizing, setting stop-loss orders, and employing risk-reward ratios.",
+      text: "We offer online language learning that is: Clear, Suitable for all levels, Helps students use the language confidently at work and in everyday life,  Without pressure, and without wasting time on commutes.",
       bgColor: "#EDEAFF",
       bgIcon: "#5751E1",
       shadowColor: "#C8C1ED",
-      title: "Risk Management",
+      title: "Our Mission",
     },
-    {
-      icon: <CertificateIcon style={{ fontSize: sizeIcon }} />,
-      text: " Offering instruction on various trading strategies, such as day trading, swing trading, and trend following",
-      bgColor: "#FFF7E2",
-      bgIcon: "#FFC224",
-      shadowColor: "#EBE0C4",
-      title: "Trading Strategies:",
-    },
+   // {
+   //   icon: <CertificateIcon style={{ fontSize: sizeIcon }} />,
+   //   text: " Offering instruction on various trading strategies, such as day trading, swing trading, and trend following",
+   //   bgColor: "#FFF7E2",
+   //   bgIcon: "#FFC224",
+   //   shadowColor: "#EBE0C4",
+   //   title: "Trading Strategies:",
+   // },
   ];
 
   return (
@@ -50,7 +50,7 @@ export default function NewSkills() {
         <div className="row mt-4 gy-5">
           {skills.map((skill, ind) => {
             return (
-              <div className="col-md-6 col-lg-4" key={ind}>
+              <div className="col-md-6 col-lg-6" key={ind}>
                 <BoxNewSkill skill={skill} />
               </div>
             );

@@ -3,9 +3,10 @@ import "./MainServices.css";
 import imgHead1 from "../../assets/imgs/MainServices/servicesHead-1.png";
 import imgHead2 from "../../assets/imgs/MainServices/servicesHead-2.svg";
 import imgHead3 from "../../assets/imgs/MainServices/servicesHead-3.svg";
-import tradIcon from "../../assets/imgs/services/trade-icon.png";
-import proIcon from "../../assets/imgs/services/pro-icon.png";
-import interactiveIcon from "../../assets/imgs/services/interactive-icon.png";
+import engIcon from "../../assets/imgs/services/united-kingdom.png";
+import gerIcon from "../../assets/imgs/services/german.png";
+import spnIcon from "../../assets/imgs/services/spanish.png";
+import freIcon from "../../assets/imgs/services/french.png";
 import Service from "./Service";
 import { LiveIcon } from "../../components/MyIcons/LiveIcon";
 import { OnlineBusiness } from "../../components/MyIcons/OnlineBusiness";
@@ -15,22 +16,28 @@ import { SalesIcon } from "../../components/MyIcons/SalesIcon";
 function MainServices() {
   const services1 = [
     {
-      icon: tradIcon,
+      icon: engIcon,
       iconType:'img',
-      title: "Live Trading",
-      text: "fering a range of courses covering various aspects of trading, including technical analysis, fundamental analysis, risk management.",
+      title: "English",
+      text: "Improve your English for work, call centers, or studies without the fear of speaking.",
     },
     {
-      icon: <LiveIcon style={{fontSize:'4rem'}}/>,
-      iconType:'svg',
-      title: "Live Courses",
-      text: "Providing courses on digital marketing, content marketing, social media marketing, SEO, email marketing, and other relevant strategies.",
+      icon: gerIcon,
+      iconType:'img',
+      title: "German",
+      text: "A precise and crucial language for job and study opportunities in Europe. ",
     },
     {
-      icon: <OnlineBusiness style={{fontSize:'4rem'}}/>,
-      iconType:'svg',
-      title: "Online business",
-      text: "Utilizing interactive learning tools such as quizzes, assignments, case studies, and live webinars to enhance engagement and facilitate practical application of concepts.",
+      icon: spnIcon,
+      iconType:'img',
+      title: "Spanish",
+      text: "One of the most in-demand languages ​​in the current job market, with opportunities increasing daily.",
+    },
+    {
+      icon: freIcon,
+      iconType:'img',
+      title: "French",
+      text: "A powerful language for work, study, and travel, with a solid academic foundation.",
     },
   ];
 
@@ -89,7 +96,7 @@ function MainServices() {
             <div className="row my-bg gy-4">
               {services1.map((ser) => {
                 return (
-                  <div className="col-md-4" key={ser.title}>
+                  <div className="col-md-6 col-lg-3" key={ser.title}>
                     <Service service={ser} />
                   </div>
                 );

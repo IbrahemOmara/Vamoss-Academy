@@ -17,7 +17,7 @@ export default function Service({ service }) {
     <>
       <div
         className={`box-service ${
-          service.title === "Marketing Courses" ||
+          service.title === "German" ||
           service.title === "Live Courses"
             ? classHover
             : ""
